@@ -20,6 +20,8 @@ def show_all_options():
     db.close()
     return results
 
+def show_options_for_style(Product_ID):
+
 #   menu
 while True:
     choice = input("Press 1 to show all styles, press 2 to show all options, press 3 to break: ")
